@@ -13,7 +13,7 @@ public class App {
         Konto konto3 = new Konto(10000);
             System.out.println("Konto3 = " + konto3.getKontostand() + " €");  
     
-        System.out.println("-----------------------------");
+        System.out.println ("----------------------------");
 
         konto1.setKontostand(konto1.getKontostand()*2);
         konto2.setKontostand(konto2.getKontostand()*3);
